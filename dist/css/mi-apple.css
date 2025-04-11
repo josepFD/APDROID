@@ -1,0 +1,69 @@
+/* Fondo general */
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-item:hover {
+    background-color: #BA8250;
+    border-radius: 20px;
+  }
+  
+  /* Título de cada producto */
+  .card-title {
+    font-weight: bold;
+    color: #212529;
+    text-transform: capitalize;
+  }
+  
+  /* Subtítulo y texto */
+  .card-subtitle, .card-text {
+    color: #6c757d;
+    font-size: 0.95rem;
+  }
+  
+  /* Contenedor de la tarjeta */
+  .card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 100%;
+  }
+  
+  /* Al pasar el mouse */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Imagen dentro de la tarjeta */
+  .card-img-top {
+    max-height: 220px;
+    object-fit: contain;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /* Botón de comprar */
+  .btn-outline-primary {
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.4);
+  }
+  
